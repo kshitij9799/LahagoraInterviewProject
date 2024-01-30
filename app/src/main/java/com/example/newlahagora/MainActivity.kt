@@ -19,6 +19,5 @@ class MainActivity : FragmentActivity() {
         tran.add(R.id.fragment_container,listFragment)
         tran.commit()
 
-        listFragment.bindData()
     }
 }
